@@ -10,7 +10,12 @@
 #include <memory.h>
 #include <pcl/point_types.h>
 
+#ifndef __OBJECTS_H__
+#define __OBJECTS_H__
 #include "Headers/Common.hpp"
+#include "Headers/Utils.hpp"
+#include "Headers/Objects.hpp"
+#endif
 
 #define EPSS 1e-6
 #define Minimal_Unbalanced_Tree_Size 10
